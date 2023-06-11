@@ -31,11 +31,11 @@ const Footer = () => {
       <div className="w-[90%] m-[auto] bg-gray-800 h-[1px]"></div>
       <div className="m-[auto] pb-8 pt-5 text-gray-600 font-medium text-sm flex flex-col md:flex-row lg:flex-row justify-between items-center w-[90%]">
         <p>
-          © {year} T.E.S.L.A NITP. All Rights Reserved.
+          © {year} ELOQIUI . All Rights Reserved.
         </p>
         <p>
           Designed & Developed by <a style={{ textDecoration: "none" }} className="font-medium text-blue-500" href="#">
-            <span className='text-sky-500'>Sudhanshu Ranjan</span>
+            <span className='text-purple-500'>Sudhanshu Ranjan</span>
           </a>.
         </p>
       </div>

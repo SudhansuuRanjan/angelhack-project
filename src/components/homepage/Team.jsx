@@ -13,7 +13,7 @@ const Team = () => {
             </div>
 
             <div className='flex flex-wrap px-10 justify-evenly gap-10 gap-y-20 items-center py-18'>
-                <div className='flex flex-col items-center gap-3'>
+                <div data-aos="fade-up"  className='flex flex-col items-center gap-3'>
                     <img src="./images/cat.jpg" className='lg:h-72 md:h-52 h-52 rounded-full' alt="team1" />
                     <p className='text-3xl font-medium hover:text-purple-500'>John Doe</p>
                     <p className='text-gray-400 font-medium'>CEO</p>
@@ -33,7 +33,7 @@ const Team = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col items-center gap-3'>
+                <div data-aos="fade-up"  className='flex flex-col items-center gap-3'>
                     <img src="./images/cat.jpg" className='lg:h-72 md:h-52 h-52 rounded-full' alt="team1" />
                     <p className='text-3xl font-medium hover:text-purple-500'>John Doe</p>
                     <p className='text-gray-400 font-medium'>CEO</p>
@@ -53,7 +53,7 @@ const Team = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col items-center gap-3'>
+                <div data-aos="fade-up"  className='flex flex-col items-center gap-3'>
                     <img src="./images/cat.jpg" className='lg:h-72 md:h-52 h-52 rounded-full' alt="team1" />
                     <p className='text-3xl font-medium hover:text-purple-500'>John Doe</p>
                     <p className='text-gray-400 font-medium'>CEO</p>

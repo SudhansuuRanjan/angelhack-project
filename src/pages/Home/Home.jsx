@@ -1,6 +1,7 @@
 import About from "../../components/homepage/About"
 import About2 from "../../components/homepage/About2"
 import Collection from "../../components/homepage/Collection"
+import FAQ from "../../components/homepage/FAQ"
 import Hero from "../../components/homepage/Hero"
 import Highlights from "../../components/homepage/Highlights"
 import Partners from "../../components/homepage/Partners"
@@ -22,6 +23,7 @@ const Home = () => {
       <Video/>
       <Timer/>
       <Team/>
+      <FAQ/>
       <Partners/>
       <StayInTouch/>
     </div>

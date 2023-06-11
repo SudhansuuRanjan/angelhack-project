@@ -5,8 +5,8 @@ const About2 = () => {
     <div className='bg-[#0b0b0b] relative py-28'>
       <div className='flex items-center justify-evenly'>
         <Parallax
-          translateX={['100px', '-100px']}
-          translateY={['0px', '100px']}
+          translateX={['100px', '-50px']}
+          translateY={['0px', '50px']}
           scale={[0.75, 1]}
           easing="easeInQuad"
         >
@@ -26,8 +26,8 @@ const About2 = () => {
           <button className='bg-purple-600 hover:bg-purple-700 font-medium px-10 py-3 rounded-xl mt-6'>Explore 😎</button>
         </div>
         <Parallax
-          translateX={['-100px', '100px']}
-          translateY={['0px', '100px']}
+          translateX={['-100px', '0px']}
+          translateY={['0px', '50px']}
           scale={[0.75, 1]}
           easing="easeInQuad"
         >

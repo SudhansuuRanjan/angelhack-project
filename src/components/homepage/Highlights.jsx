@@ -1,4 +1,5 @@
 import { Parallax } from "react-scroll-parallax"
+import CountUp from 'react-countup';
 
 const Highlights = () => {
     return (
@@ -9,7 +10,7 @@ const Highlights = () => {
             <div className='flex flex-wrap justify-evenly lg:gap-10 md:gap-10 gap-5 gap-y-16 py-16'>
                 <div className='flex gap-2'>
                     <div className=''>
-                       <Parallax
+                        <Parallax
                             rotate={[-180, 0]}
                             easing="easeInQuad"
                         >
@@ -17,7 +18,7 @@ const Highlights = () => {
                         </Parallax>
                     </div>
                     <div className='text-center'>
-                        <p className='lg:text-5xl text-4xl font-bold'>120+</p>
+                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={120} enableScrollSpy={true} />+</p>
                         <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>NFTs Sold</p>
                     </div>
                 </div>
@@ -32,7 +33,7 @@ const Highlights = () => {
                         </Parallax>
                     </div>
                     <div className='text-center'>
-                        <p className='lg:text-5xl text-4xl font-bold'>12+</p>
+                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={15} enableScrollSpy={true} />+</p>
                         <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Happy clients</p>
                     </div>
                 </div>
@@ -47,14 +48,14 @@ const Highlights = () => {
                         </Parallax>
                     </div>
                     <div className='text-center'>
-                        <p className='lg:text-5xl text-4xl font-bold'>150+</p>
+                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={150} enableScrollSpy={true} />+</p>
                         <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Featured NFTs</p>
                     </div>
                 </div>
 
                 <div className='flex gap-2'>
                     <div className=''>
-                       <Parallax
+                        <Parallax
                             rotate={[-180, 0]}
                             easing="easeInQuad"
                         >
@@ -62,7 +63,7 @@ const Highlights = () => {
                         </Parallax>
                     </div>
                     <div className='text-center'>
-                        <p className='lg:text-5xl text-4xl font-bold'>12+</p>
+                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={12} enableScrollSpy={true} />+</p>
                         <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Renowned Artists</p>
                     </div>
                 </div>
