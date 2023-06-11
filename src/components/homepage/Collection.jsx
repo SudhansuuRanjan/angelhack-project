@@ -44,7 +44,7 @@ const Collection = () => {
                     watchSlidesProgress={true}
                 >
                     <SwiperSlide className="">
-                        <div className="bg-[url('./images/frame-16.jpg')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
+                        <div className="bg-[url('./images/stayintouch.png')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
                             <div className="p-2 opacity-0 hover:opacity-100 bg-white rounded w-full flex h-full text-black flex-col items-start justify-end gap-2 transition-all ease-in-out delay-[30ms]">
                                 <img src="./images/wave-pattern.webp" className="h-7" alt="wave" />
                                 <h3 className="text-2xl font-semibold text-gray-900">Hansel & Gretal</h3>
@@ -53,7 +53,7 @@ const Collection = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="">
-                        <div className="bg-[url('./images/frame-16.jpg')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
+                        <div className="bg-[url('./images/stayintouch.png')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
                             <div className="p-2 opacity-0 hover:opacity-100 bg-white rounded w-full flex h-full text-black flex-col items-start justify-end gap-2 transition-all ease-in-out delay-[30ms]">
                                 <img src="./images/wave-pattern.webp" className="h-7" alt="wave" />
                                 <h3 className="text-2xl font-semibold text-gray-900">Hansel & Gretal</h3>
@@ -62,7 +62,7 @@ const Collection = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="">
-                        <div className="bg-[url('./images/frame-16.jpg')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
+                        <div className="bg-[url('./images/stayintouch.png')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
                             <div className="p-2 opacity-0 hover:opacity-100 bg-white rounded w-full flex h-full text-black flex-col items-start justify-end gap-2 transition-all ease-in-out delay-[30ms]">
                                 <img src="./images/wave-pattern.webp" className="h-7" alt="wave" />
                                 <h3 className="text-2xl font-semibold text-gray-900">Hansel & Gretal</h3>
@@ -71,7 +71,7 @@ const Collection = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="">
-                        <div className="bg-[url('./images/frame-16.jpg')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
+                        <div className="bg-[url('./images/stayintouch.png')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
                             <div className="p-2 opacity-0 hover:opacity-100 bg-white rounded w-full flex h-full text-black flex-col items-start justify-end gap-2 transition-all ease-in-out delay-[30ms]">
                                 <img src="./images/wave-pattern.webp" className="h-7" alt="wave" />
                                 <h3 className="text-2xl font-semibold text-gray-900">Hansel & Gretal</h3>
@@ -80,7 +80,7 @@ const Collection = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="">
-                        <div className="bg-[url('./images/frame-16.jpg')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
+                        <div className="bg-[url('./images/stayintouch.png')] bg-center bg-cover bg-no-repeat rounded h-[30rem] w-full p-4">
                             <div className="p-2 opacity-0 hover:opacity-100 bg-white rounded w-full flex h-full text-black flex-col items-start justify-end gap-2 transition-all ease-in-out delay-[30ms]">
                                 <img src="./images/wave-pattern.webp" className="h-7" alt="wave" />
                                 <h3 className="text-2xl font-semibold text-gray-900">Hansel & Gretal</h3>
