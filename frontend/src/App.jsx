@@ -4,7 +4,7 @@ import './App.css'
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ScrollToTop from './hooks/useScrollToTop';
-import { Dashboard, Home, About, Team, Blogs } from './pages';
+import { Dashboard, Home, About, Team, Blogs, Blog } from './pages';
 import Layout from './utils/Layout';
 import AnimatedCursor from "react-animated-cursor"
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -55,6 +55,11 @@ function App() {
           <Route path="/blogs" element={
             <Layout>
               <Blogs />
+            </Layout>
+          } />
+          <Route path="/blog/:topicSlug" element={
+            <Layout>
+              <Blog />
             </Layout>
           } />
         </Routes>

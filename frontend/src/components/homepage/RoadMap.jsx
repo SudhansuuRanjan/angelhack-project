@@ -9,7 +9,7 @@ const RoadMap = () => {
            <Parallax speed={-10}>
              <div className='flex items-center justify-center text-center gap-3 flex-col mb-16'>
                 <img src="./images/wave-pattern.webp" className='h-7' alt="wave" />
-                <p className='text-4xl font-medium'>The <span className='text-purple-500'>RoadMap</span></p>
+                <p className='text-4xl font-medium'>June <span className='text-purple-500'>Submission</span></p>
             </div>
            </Parallax>
 
@@ -28,19 +28,19 @@ function Step1() {
             <img src="./images/fwd-2.png" alt="fwd" className='mb-3'/>
             <img className='w-36' src="https://wordpress.iqonic.design/product/wp/ealain/wp-content/uploads/2022/07/Group-3.webp" alt="step" />
             <p className='text-purple-500 mt-3'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>Deploy Contract</h3>
+            <h3 className='text-3xl font-semibold my-4 mt-2'>React Interface</h3>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ 3D Computer Graphics
+                    ✨ Vite React Interface
                 </p>
                 <p>
-                    ✨ Pixel Art
+                    ✨ Cool Animations
                 </p>
                 <p>
-                    ✨ Digital Photography
+                    ✨ Framer Motion
                 </p>
                 <p>
-                    ✨ Photo-painting.
+                    ✨ Figma Design.
                 </p>
             </div>
         </div>
@@ -52,19 +52,19 @@ function Step2() {
         <div>
             <img className='w-36' src="https://wordpress.iqonic.design/product/wp/ealain/wp-content/uploads/2022/07/Group-6.webp" alt="step" />
             <p className='text-purple-500 mt-3'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>Mint NFT</h3>
+            <h3 className='text-3xl font-semibold my-4 mt-2'>Web3 Interface</h3>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ 3D Computer Graphics
+                    ✨ Connect Wallet
                 </p>
                 <p>
-                    ✨ Pixel Art
+                    ✨ Thirdweb SDK
                 </p>
                 <p>
-                    ✨ Digital Photography
+                    ✨ NFT Gating
                 </p>
                 <p>
-                    ✨ Photo-painting.
+                    ✨ Wallet SDK.
                 </p>
             </div>
              <img src="./images/fwd-1.png" alt="fwd" className='mt-5'/>
@@ -78,19 +78,19 @@ function Step3() {
             <img src="./images/fwd-2.png" alt="fwd" className='mb-3'/>
             <img className='w-36' src="https://wordpress.iqonic.design/product/wp/ealain/wp-content/uploads/2022/07/Group-5.webp" alt="step" />
             <p className='text-purple-500 mt-3'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>List For Sale</h3>
+            <h3 className='text-3xl font-semibold my-4 mt-2'>Accomplishment</h3>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ 3D Computer Graphics
+                    ✨ NFT Gated Website
                 </p>
                 <p>
-                    ✨ Pixel Art
+                    ✨ Wallet Integration
                 </p>
                 <p>
-                    ✨ Digital Photography
+                    ✨ Cool Animations
                 </p>
                 <p>
-                    ✨ Photo-painting.
+                    ✨ Build on Time.
                 </p>
             </div>
         </div>

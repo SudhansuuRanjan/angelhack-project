@@ -28,7 +28,7 @@ const Timer = () => {
             <div className='lg:text-6xl md:text-5xl text-3xl font-medium flex flex-col -gap-10 items-center justify-center w-full'>
                 <div className='flex justify-evenly w-full'>
                     <div className='text-purple-500'>
-                        Minting
+                        June Challenge
                     </div>
                     <Parallax
                         speed={-5}
@@ -47,7 +47,7 @@ const Timer = () => {
                         <img src="./images/rocket.webp" className='h-32' alt="rocket" />
                     </Parallax>
                     <div>
-                        Start Coming Soon
+                        Ending Soon
                     </div>
                 </div>
             </div>

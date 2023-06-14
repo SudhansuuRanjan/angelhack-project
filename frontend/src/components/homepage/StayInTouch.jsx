@@ -10,14 +10,13 @@ const StayInTouch = () => {
       <div className="lg:max-w-xl md:max-w-lg w-[90%] m-auto flex flex-col items-end lg:text-right md:text-right text-left">
         <img data-aos="fade-up" src="./images/stayintouch.png" className="rounded-lg" alt="statyintouch" />
         <h2 data-aos="fade-up" className="text-gray-300 text-2xl font-medium my-6">
-          Digital Art, Brand Identity, Illustration Art, CGI Animation
-          contact@eloqui.com
+          AngelFace Team, National Institute of Technology Patna, Bihar, India
         </h2>
         <h4 data-aos="fade-up" className="text-gray-500">
-          contact@eloqui.com
+          contact@angelface.com
         </h4>
         <h4 data-aos="fade-up" className="text-gray-500 mt-3">
-          (180) 555-0108
+          (180) 000-0000
         </h4>
       </div>
     </div>

@@ -13,11 +13,11 @@ const Hero = () => {
                     <div className='flex flex-col justify-center'>
                         <h1 style={{
                             writingMode: "vertical-rl", textOrientation: "mixed"
-                        }} className="lg:text-[10rem] md:text-[8rem] text-[0rem] text-transparent font-bold font-outline-2 lg:rotate-180 md:rotate-180 -rotate-90">
-                            ELOQUI
+                        }} className="lg:text-[7rem] md:text-[6rem] text-[0rem] text-transparent font-bold font-outline-2 lg:rotate-180 md:rotate-180 -rotate-90">
+                            ANGELFACE
                         </h1>
-                        <h1 className="lg:text-[0rem] md:text-[0rem] text-[5rem] text-transparent font-bold font-outline-2">
-                            ELOQUI
+                        <h1 className="lg:text-[0rem] md:text-[0rem] text-[4rem] text-transparent font-bold font-outline-2">
+                            ANGELFACE
                         </h1>
                     </div>
                     <div className='z-20'>
@@ -25,13 +25,12 @@ const Hero = () => {
                         <Parallax speed={-15}>
                             <img src="/images/astro2.png" alt="space ship" className='lg:h-[13rem] h-[10rem] absolute lg:right-[10rem] md:right-[5rem] right-2 top-[-12rem] z-0' />
                         </Parallax>
-                        <h1 className='lg:text-8xl md:text-6xl text-5xl font-medium mt-4'>ELOQUI</h1>
-                        <h1 className='lg:text-8xl md:text-6xl text-5xl mt-2 text-purple-500 font-medium'>Brilliant Creativity</h1>
-                        <p className='text-lg my-5'>NEW JOURNEY WITH <span className='text-purple-500'>$2.99</span> NFTs</p>
+                        <h1 className='lg:text-8xl md:text-6xl text-5xl font-medium mt-4'>AngelFace</h1>
+                        <h1 className='lg:text-8xl md:text-6xl text-5xl mt-2 text-purple-500 font-medium'>Monthly Challenge</h1>
+                        <p className='text-lg my-5'>NEW WAY TO <span className='text-purple-500'>LEARN</span> SKILLS</p>
 
                         <p className='text-lg my-10 max-w-md'>
-                            First NFT utility project for Developers and Creators
-                            based on the FileCoin Smart Chain.
+                            Fun Filled Competitions to tickle your Coding brain and win exclusive prizes by AngelHack.
                         </p>
 
                         <div className='flex gap-5'>

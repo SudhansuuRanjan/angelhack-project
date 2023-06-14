@@ -12,10 +12,10 @@ const Collection = () => {
                 <div className="max-w-lg">
                     <img src="./images/wave-pattern.webp" className='h-7' alt="wave" />
                     <h3 className='text-4xl font-semibold underline-offset-8 mt-4'>
-                       Check Out Our <br/><span className=' text-purple-500'>Ghost Art Collections</span>
+                       AngelHack Past <br/><span className=' text-purple-500'>Monthly Challenge</span>
                     </h3>
                     <p className="text-gray-500 mt-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur mollitia inventore amet!
+                        AngelHack monthly challenges run for 2 weeks every month, with the aim to equip developers with a new skill every month.
                     </p>
                     <button className='bg-purple-600 px-8 py-2 rounded-md text-sm mt-6'>View More 😎</button>
                 </div>

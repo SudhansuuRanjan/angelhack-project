@@ -18,8 +18,8 @@ const Highlights = () => {
                         </Parallax>
                     </div>
                     <div className='text-center'>
-                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={120} enableScrollSpy={true} />+</p>
-                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>NFTs Sold</p>
+                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={4} enableScrollSpy={true} />+</p>
+                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Monthly Challenge</p>
                     </div>
                 </div>
 
@@ -33,8 +33,8 @@ const Highlights = () => {
                         </Parallax>
                     </div>
                     <div className='text-center'>
-                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={15} enableScrollSpy={true} />+</p>
-                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Happy clients</p>
+                        <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={10} enableScrollSpy={true} />+</p>
+                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Exciting Themes</p>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Highlights = () => {
                     </div>
                     <div className='text-center'>
                         <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={150} enableScrollSpy={true} />+</p>
-                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Featured NFTs</p>
+                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Hackers Participated</p>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ const Highlights = () => {
                     </div>
                     <div className='text-center'>
                         <p className='lg:text-5xl text-4xl font-bold lg:w-32 md:w-32 w-28'><CountUp end={12} enableScrollSpy={true} />+</p>
-                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Renowned Artists</p>
+                        <p className='text-purple-500 lg:text-lg md:text-lg text-base pt-3'>Challenge Winners</p>
                     </div>
                 </div>
             </div>

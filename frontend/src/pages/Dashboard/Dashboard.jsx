@@ -7,7 +7,6 @@ const Dashboard = () => {
   const [nfts, setNFTs] = useState([]);
 
   // get nft metadata 
-
   const getNFTMetadata = async () => {
     const promises = [];
     for (let i = 1; i <= 50; i++) {
@@ -41,9 +40,9 @@ const Dashboard = () => {
       </div>
 
       <div className='flex flex-wrap items-center justify-evenly px-16 gap-6 gap-y-10 my-16'>
-        {
+        {nfts.length === 0 ? <div className='text-2xl font-semibold text-purple-500 my-24'>Loading...</div> :
           nfts.map((nft, idx) => (
-            <NFTCard attributes={nft.attributes} image={'https://aqua-fresh-crawdad-962.mypinata.cloud/ipfs/QmWAAuJ2HyAZ4x4YNWb96Eh29zueJxJL2SuaDvBXSLCHre/' + (idx + 1) + '.png'} category="Face" name={"#" + (idx + 1) + " AngelFace"} key={idx} />
+            <NFTCard attributes={nft.attributes} image={'https://aqua-fresh-crawdad-962.mypinata.cloud/ipfs/QmWAAuJ2HyAZ4x4YNWb96Eh29zueJxJL2SuaDvBXSLCHre/' + (idx + 1) + '.png'} category="Face Art" name={"#" + (idx + 1) + " AngelFace"} key={idx} />
           ))
         }
       </div>
@@ -58,7 +57,7 @@ const NFTCard = ({ name, category, image, attributes }) => {
         <img src={image} alt={name} className='rounded pt-0' />
         <img src="./images/wave-pattern.webp" className="h-3 mt-2" alt="wave" />
         <h3 className="text-xl font-semibold text-gray-400">{name}</h3>
-        <p className="text-lg text-gray-600 font-medium">{category}</p>
+        <p className="text-lg text-purple-500 font-medium">{category}</p>
       </div>
       <div className='bg-gray-900 attribute-cont text-center p-4'>
         <h2 className='text-lg font-semibold text-yellow-400'>Traits</h2>

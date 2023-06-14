@@ -15,7 +15,7 @@ const Team = () => {
             <div className='flex flex-wrap px-10 justify-evenly gap-10 gap-y-20 items-center py-18'>
                 <div data-aos="fade-up"  className='flex flex-col items-center gap-3'>
                     <img src="./images/cat.jpg" className='lg:h-72 md:h-52 h-52 rounded-full' alt="team1" />
-                    <p className='text-3xl font-medium hover:text-purple-500'>John Doe</p>
+                    <p className='text-3xl font-medium hover:text-purple-500'>Sudhanshu Ranjan</p>
                     <p className='text-gray-400 font-medium'>CEO</p>
                     <div className='flex items-center gap-3'>
                         <a href="https://www.facebook.com/" target='_blank' rel="noreferrer">
@@ -35,7 +35,7 @@ const Team = () => {
 
                 <div data-aos="fade-up"  className='flex flex-col items-center gap-3'>
                     <img src="./images/cat.jpg" className='lg:h-72 md:h-52 h-52 rounded-full' alt="team1" />
-                    <p className='text-3xl font-medium hover:text-purple-500'>John Doe</p>
+                    <p className='text-3xl font-medium hover:text-purple-500'>Harsh Kumar</p>
                     <p className='text-gray-400 font-medium'>CEO</p>
                     <div className='flex items-center gap-3'>
                         <a href="https://www.facebook.com/" target='_blank' rel="noreferrer">
@@ -55,7 +55,7 @@ const Team = () => {
 
                 <div data-aos="fade-up"  className='flex flex-col items-center gap-3'>
                     <img src="./images/cat.jpg" className='lg:h-72 md:h-52 h-52 rounded-full' alt="team1" />
-                    <p className='text-3xl font-medium hover:text-purple-500'>John Doe</p>
+                    <p className='text-3xl font-medium hover:text-purple-500'>Beluga Cat</p>
                     <p className='text-gray-400 font-medium'>CEO</p>
                     <div className='flex items-center gap-3'>
                         <a href="https://www.facebook.com/" target='_blank' rel="noreferrer">

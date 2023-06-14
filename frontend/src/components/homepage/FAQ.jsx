@@ -5,23 +5,23 @@ const FAQ = () => {
 
     const faqs = [
         {
-            question: "What exams does the counseling portal cover?",
-            answer: "The counseling portal covers counseling and guidance for various exams including JEE, NEET, CLAT, BCECE, and ICAR exams in India. lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            question: "What’s your challenge expectations?",
+            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
             id: "1"
         },
         {
-            question: "How can I access the counseling services?",
-            answer: "To access the counseling services, you need to register on the portal and create an account. Once you have an account, you can log in and access the counseling resources, schedule counseling sessions, and receive guidance from experienced counselors.",
+            question: "How was your challenge experience",
+            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
             id: "2"
         },
         {
-            question: "What kind of counseling services are available?",
-            answer: "The counseling portal provides a range of services such as exam preparation guidance, career counseling, college selection assistance, information on exam patterns and syllabus, tips for effective study techniques, and guidance on filling application forms.",
+            question: "What is your expected result?",
+            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
             id: "3"
         },
         {
-            question: "Are the counseling services available offline or online?",
-            answer: "The counseling services are primarily offered online through the portal. This allows you to access counseling resources and guidance from anywhere at any time. However, there may be some cases where offline counseling sessions or workshops are conducted at designated locations.",
+            question: "What are the difficulties you faced?",
+            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
             id: "4"
         }
     ]
