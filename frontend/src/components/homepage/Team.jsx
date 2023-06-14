@@ -2,7 +2,7 @@ import { FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 const Team = () => {
     return (
-        <div className='bg-[#0b0b0b] relative py-28'>
+        <div id="team" className='bg-[#0b0b0b] relative py-28'>
             <img style={{
                 filter: 'invert(0.2)'
             }} src="./images/wave.webp" alt="wave" className='lg:h-26 md:h-20 h-16' />

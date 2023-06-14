@@ -4,10 +4,11 @@ import './App.css'
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ScrollToTop from './hooks/useScrollToTop';
-import { Dashboard, Home } from './pages';
+import { Dashboard, Home, About, Team, Blogs } from './pages';
 import Layout from './utils/Layout';
 import AnimatedCursor from "react-animated-cursor"
 import { ParallaxProvider } from 'react-scroll-parallax';
+import { WalletProvider } from './context/WalletContext';
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
   return (
     <ParallaxProvider>
       <Router>
+        <WalletProvider>
         <ScrollToTop />
         <AnimatedCursor
           innerSize={10}
@@ -35,12 +37,28 @@ function App() {
               <Home />
             </Layout>
           } />
-          <Route path="/dashboard" element={
+          <Route path="/collection" element={
             <Layout>
               <Dashboard />
             </Layout>
           } />
+          <Route path="/about" element={
+            <Layout>
+              <About />
+            </Layout>
+          } />
+          <Route path="/team" element={
+            <Layout>
+              <Team />
+            </Layout>
+          } />
+          <Route path="/blogs" element={
+            <Layout>
+              <Blogs />
+            </Layout>
+          } />
         </Routes>
+        </WalletProvider>
       </Router>
     </ParallaxProvider>
   )

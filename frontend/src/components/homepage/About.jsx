@@ -2,7 +2,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 const About = () => {
     return (
-        <div className='flex lg:flex-row md:flex-row flex-col items-center justify-evenly py-16 lg:gap-5 md:gap-5 gap-16'>
+        <div id="about" className='flex lg:flex-row md:flex-row flex-col items-center justify-evenly py-16 lg:gap-5 md:gap-5 gap-16'>
             <div>
                 <img src="./images/wave-pattern.webp" className='h-7' alt="wave" />
                 <h3 className='text-4xl font-semibold underline-offset-8 mt-4'>

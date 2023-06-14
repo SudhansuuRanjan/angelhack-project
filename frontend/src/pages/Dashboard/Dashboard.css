@@ -1,0 +1,9 @@
+.nftcard:hover .attribute-cont {
+    transform: translateY(0%);
+    transition: all 0.4s ease-in-out;
+}
+
+.nftcard:hover .attribute-cont {
+    transform: translateY(-100%);
+    transition: all 0.4s ease-in-out;
+}

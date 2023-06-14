@@ -1,11 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { FiX } from "react-icons/fi";
 import ScrollStatus from "./scroll/ScrollStatus";
+import { WalletContext } from "../context/WalletContext"
+
 
 
 const NavBar = () => {
+    const { connectWallet } = useContext(WalletContext);
     const [menu, setMenu] = useState(false);
     const [colorChange, setColorchange] = useState(false);
 
@@ -31,23 +34,23 @@ const NavBar = () => {
                     <div className="flex items-center">
                         <ul className="md:flex gap-8 hidden items-center text-[0.95rem]">
                             <li>
+                                <NavLink style={{ textDecoration: "none" }} to="/">
+                                    {({ isActive }) => (
+                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Home</span>
+                                    )}
+                                </NavLink>
+                            </li>
+                            <li>
                                 <NavLink style={{ textDecoration: "none" }} to="/about">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline underline-offset-4 decoration-purple-500 ${isActive ? "text-sky-500 font-medium" : "text-yellow-100"}`}>Home</span>
+                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>About</span>
                                     )}
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink style={{ textDecoration: "none" }} to="/events">
+                                <NavLink style={{ textDecoration: "none" }} to="/blogs">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline underline-offset-4 decoration-purple-500 ${isActive ? "text-sky-500 font-medium" : "text-yellow-100"}`}>About</span>
-                                    )}
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink style={{ textDecoration: "none" }} to="/projects">
-                                    {({ isActive }) => (
-                                        <span className={`hover:underline underline-offset-4 decoration-purple-500 ${isActive ? "text-sky-500 font-medium" : "text-yellow-100"}`}>Blogs</span>
+                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Blogs</span>
                                     )}
                                 </NavLink>
                             </li>
@@ -55,20 +58,20 @@ const NavBar = () => {
                             <li>
                                 <NavLink style={{ textDecoration: "none" }} to="/team">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline underline-offset-4 decoration-purple-500 ${isActive ? "text-sky-500 font-medium" : "text-yellow-100"}`}>Team</span>
+                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Team</span>
                                     )}
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink style={{ textDecoration: "none" }} to="/gallery">
+                                <NavLink style={{ textDecoration: "none" }} to="/collection">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline underline-offset-4 decoration-purple-500 ${isActive ? "text-sky-500 font-medium" : "text-yellow-100"}`}>NFT Gallery</span>
+                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>NFT Gallery</span>
                                     )}
                                 </NavLink>
                             </li>
                         </ul>
 
-                        <button className="bg-violet-600 px-4 py-2 text-sm rounded-md font-medium ml-6 mr-4">
+                        <button onClick={connectWallet} className="bg-violet-600 px-4 py-2 text-sm rounded-md font-medium ml-6 mr-4">
                             CONNECT 🔒
                         </button>
 
@@ -92,7 +95,7 @@ const NavBar = () => {
                     <div className="md:hidden fixed top-[4rem] right-0 rounded-xl w-[12rem] py-2 mr-5 shadow-md text-yellow-100 bg-gray-900 border-gray-700 border">
                         <ul>
                             <li>
-                                <NavLink style={{ textDecoration: "none" }} to="/">
+                                <Link style={{ textDecoration: "none" }} to="/">
                                     <button
                                         onClick={() => {
                                             setMenu(false);
@@ -102,7 +105,7 @@ const NavBar = () => {
                                     >
                                         Home
                                     </button>
-                                </NavLink>
+                                </Link>
                             </li>
                             <li>
                                 <Link style={{ textDecoration: "none" }} to="/about">
@@ -118,7 +121,7 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link style={{ textDecoration: "none" }} to="/events">
+                                <Link style={{ textDecoration: "none" }} to="/blogs">
                                     <button
                                         onClick={() => {
                                             setMenu(false);
@@ -126,33 +129,7 @@ const NavBar = () => {
                                         }}
                                         className="hover:underline hover:border-blue-300  border-4 border-gray-900 py-1.5 w-[100%] pl-4 cursor-pointer  hover:bg-gray-700 text-left"
                                     >
-                                        Events
-                                    </button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link style={{ textDecoration: "none" }} to="/projects">
-                                    <button
-                                        onClick={() => {
-                                            setMenu(false);
-
-                                        }}
-                                        className="hover:underline hover:border-blue-300  border-4 border-gray-900 py-1.5 w-[100%] pl-4 cursor-pointer  hover:bg-gray-700 text-left"
-                                    >
-                                        Projects
-                                    </button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link style={{ textDecoration: "none" }} to="/gallery">
-                                    <button
-                                        onClick={() => {
-                                            setMenu(false);
-
-                                        }}
-                                        className="hover:underline hover:border-blue-300  border-4 border-gray-900 py-1.5 w-[100%] pl-4 cursor-pointer  hover:bg-gray-700 text-left"
-                                    >
-                                        Gallery
+                                        Blogs
                                     </button>
                                 </Link>
                             </li>
@@ -170,7 +147,7 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="visited:text-yellow-100 text-yellow-100" style={{ textDecoration: "none" }} to="/news">
+                                <Link style={{ textDecoration: "none" }} to="/collection">
                                     <button
                                         onClick={() => {
                                             setMenu(false);
@@ -178,11 +155,10 @@ const NavBar = () => {
                                         }}
                                         className="hover:underline hover:border-blue-300  border-4 border-gray-900 py-1.5 w-[100%] pl-4 cursor-pointer  hover:bg-gray-700 text-left"
                                     >
-                                        Newsletter
+                                        NFT Gallery
                                     </button>
                                 </Link>
                             </li>
-
                         </ul>
                     </div>
                 )}

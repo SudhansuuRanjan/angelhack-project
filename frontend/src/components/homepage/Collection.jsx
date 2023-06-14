@@ -6,8 +6,6 @@ import "swiper/css";
 
 const Collection = () => {
     const swiperRef = useRef();
-
-
     return (
         <div>
             <div className="flex lg:flex-row md:flex-row flex-col items-center justify-evenly gap-16 py-16 px-10">
@@ -33,7 +31,9 @@ const Collection = () => {
                     }}
                     spaceBetween={50}
                     slidesPerView={3}
-                    onSlideChange={(cur) => (console.log(cur.activeIndex))}
+                    onSlideChange={(cur) => {
+                        // console.log(cur.activeIndex)
+                    }}
                     loop={true}
                     centeredSlides={true}
                     speed={800}
