@@ -14,10 +14,10 @@ const Footer = () => {
           </Link>
 
           <div className='flex gap-6 text-base text-gray-500'>
-            <Link href="">
+            <Link to="/team">
               <div>Our Team</div>
             </Link>
-            <Link href="">
+            <Link to="/blog">
               <div>Blog</div>
             </Link>
             <Link href="">

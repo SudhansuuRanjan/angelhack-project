@@ -6,23 +6,28 @@ const FAQ = () => {
     const faqs = [
         {
             question: "What’s your challenge expectations?",
-            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
+            answer: "Our challenge expectations can be summarized as follows: Foster innovation and creativity, Encourage collaboration and teamwork, Deliver impactful and practical solutions and Strive for technical excellence and problem-solving skills.",
             id: "1"
         },
         {
-            question: "How was your challenge experience",
-            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
+            question: "How was your challenge experience?",
+            answer: "It was a great experience. We learned a lot of new things and we had the chance to meet new people. We also had the chance to work on a real-life problem and try to solve it.",
             id: "2"
         },
         {
             question: "What is your expected result?",
-            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
+            answer: "I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it.",
             id: "3"
         },
         {
             question: "What are the difficulties you faced?",
-            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.",
+            answer: "I faced a lot of difficulties. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it.",
             id: "4"
+        },
+        {
+            question: "Is this Quest platform free of cost?",
+            answer: "Yes, Quest is a free platform for all students. We are a non-profit organization and we are not looking to make any profit from this platform.",
+            id: "5"
         }
     ]
 
@@ -40,7 +45,7 @@ const FAQ = () => {
                     Questions
                 </h3>
                 <p data-aos="fade-up"  className='text-gray-500 lg:max-w-sm md:max-w-xs w-[90%] my-10'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloremque cum voluptate deleniti qui optio illo quod repel.
+                    Some of the most common questions we get asked by our clients. If you have any other questions, please get in touch.
                 </p>
                 <img data-aos="fade-up"  className="lg:max-w-sm md:max-w-xs w-[70%] m-auto" src="./images/faq.webp" alt="faqs" />
             </div>

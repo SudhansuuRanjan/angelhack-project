@@ -31,7 +31,7 @@ const Dashboard = () => {
 
         <div className='flex items-center justify-center text-center gap-3 flex-col mb-16'>
           <img src="./images/wave-pattern.webp" size={17} alt="wave" />
-          <p className='lg:text-5xl md:text-4xl text-3xl font-medium'>Our NFT <span className='text-purple-500'>Collection</span></p>
+          <p className='lg:text-5xl md:text-4xl text-3xl font-medium px-4'>Our Challenge <span className='text-purple-500'>NFT Collection</span></p>
         </div>
 
         <img style={{
@@ -42,7 +42,7 @@ const Dashboard = () => {
       <div className='flex flex-wrap items-center justify-evenly px-16 gap-6 gap-y-10 my-16'>
         {nfts.length === 0 ? <div className='text-2xl font-semibold text-purple-500 my-24'>Loading...</div> :
           nfts.map((nft, idx) => (
-            <NFTCard attributes={nft.attributes} image={'https://aqua-fresh-crawdad-962.mypinata.cloud/ipfs/QmWAAuJ2HyAZ4x4YNWb96Eh29zueJxJL2SuaDvBXSLCHre/' + (idx + 1) + '.png'} category="Face Art" name={"#" + (idx + 1) + " AngelFace"} key={idx} />
+            <NFTCard attributes={nft.attributes} image={'https://aqua-fresh-crawdad-962.mypinata.cloud/ipfs/QmWAAuJ2HyAZ4x4YNWb96Eh29zueJxJL2SuaDvBXSLCHre/' + (idx + 1) + '.png'} category="Challenge NFT" name={"#" + (idx + 1) + " AngelFace"} key={idx} />
           ))
         }
       </div>

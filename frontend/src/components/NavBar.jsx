@@ -4,6 +4,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { FiX } from "react-icons/fi";
 import ScrollStatus from "./scroll/ScrollStatus";
 import { WalletContext } from "../context/WalletContext"
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 
 
@@ -32,25 +33,18 @@ const NavBar = () => {
                         </Link>
                     </div>
                     <div className="flex items-center">
-                        <ul className="md:flex gap-8 hidden items-center text-[0.95rem]">
-                            <li>
-                                <NavLink style={{ textDecoration: "none" }} to="/">
-                                    {({ isActive }) => (
-                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Home</span>
-                                    )}
-                                </NavLink>
-                            </li>
+                        <ul className="md:flex gap-8 hidden items-center text-[1rem]">
                             <li>
                                 <NavLink style={{ textDecoration: "none" }} to="/about">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>About</span>
+                                        <span className={`hover:underline decoration-2 font-medium underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>About</span>
                                     )}
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink style={{ textDecoration: "none" }} to="/blogs">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Blogs</span>
+                                        <span className={`hover:underline decoration-2 font-medium underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Blogs</span>
                                     )}
                                 </NavLink>
                             </li>
@@ -58,22 +52,37 @@ const NavBar = () => {
                             <li>
                                 <NavLink style={{ textDecoration: "none" }} to="/team">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Team</span>
+                                        <span className={`hover:underline decoration-2 font-medium underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>Team</span>
                                     )}
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink style={{ textDecoration: "none" }} to="/collection">
                                     {({ isActive }) => (
-                                        <span className={`hover:underline decoration-2 underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>NFT Gallery</span>
+                                        <span className={`hover:underline decoration-2 font-medium underline-offset-4 decoration-purple-500 ${isActive ? "text-purple-500 font-medium" : "text-yellow-100"}`}>NFT Gallery</span>
                                     )}
                                 </NavLink>
                             </li>
                         </ul>
 
-                        <button onClick={connectWallet} className="bg-violet-600 px-4 py-2 text-sm rounded-md font-medium ml-6 mr-4">
+                        {/* <button onClick={connectWallet} className="bg-violet-600 px-4 py-2 text-sm rounded-md font-medium ml-6 mr-4">
                             CONNECT 🔒
-                        </button>
+                        </button> */}
+
+                        <div className="pl-4">
+                            <ConnectButton
+                                chainStatus="icon"
+                                accountStatus={{
+                                    smallScreen: 'avatar',
+                                    largeScreen: 'full',
+                                }}
+                                showBalance={{
+                                    smallScreen: false,
+                                    largeScreen: true,
+                                }}
+
+                            />
+                        </div>
 
 
                         <button
