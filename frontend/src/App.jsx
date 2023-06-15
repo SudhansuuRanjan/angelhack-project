@@ -62,7 +62,7 @@ function App() {
         <RainbowKitProvider chains={chains} theme={midnightTheme(
           {
             accentColor: '#A855F7',
-            accentColorForeground: '#A855F7',
+            accentColorForeground: '#FFFFFF',
           }
         )} coolMode>
           <ParallaxProvider>
